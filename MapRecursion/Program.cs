@@ -7,12 +7,12 @@ namespace MapRecursion
     { 
             static void Main(string[] args)
             {
-                Console.WriteLine("Enter a number: ");
+                Console.WriteLine("Enter a  integer number: ");
                 string input = Console.ReadLine();
 
                 List<string> combinations = GetCombinations(input);
 
-                Console.WriteLine("Possible combinations:");
+                Console.WriteLine("All Possible combinations:");
                 foreach (var combination in combinations)
                 {
                     Console.WriteLine(combination);
